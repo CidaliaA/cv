@@ -1,11 +1,53 @@
 body{
     padding: 0;
     margin: 0;
+    background: url(./images/metal-316803.jpg);
+    width: 100%;
 }
 html{
     padding: 0;
     margin: 0;
 }
-img{
-    width: 20%;
+/* navbar  header*/
+.navbar{
+    position: fixed;
+    width: 100%;
+}
+.navbar-nav{
+    background-color: black;
+    width: 100%;
+}
+/* premiere ligne */
+#icon img{
+    height: 10px;
+    width: 10px;
+}
+.presentation{
+    text-align: center;
+    margin-top: 60px;
+}
+#cidalia img{
+    display: flex;
+    margin-top: 10px;
+}
+/* quatrieme ligne */
+#expérience{
+    overflow-y: scroll;
+    height: 250px;
+    margin: 0 100px;
+}
+/* cinquieme ligne */
+.container img{
+    width: 100%;
+    height: auto;
+    /* border-radius: 40%; */
+}
+footer{
+    background-color: black;
+    width: 100%;
+    height: auto;
+}
+#imgcidalia{
+    display: flex;
+    justify-content: center;
 }
