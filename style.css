@@ -13,10 +13,6 @@ html{
     position: fixed;
     width: 100%;
 }
-.navbar-nav{
-    background-color: black;
-    width: 100%;
-}
 /* premiere ligne */
 #icon img{
     height: 10px;
@@ -42,8 +38,9 @@ html{
     height: auto;
     /* border-radius: 40%; */
 }
+/* footer */
 footer{
-    background-color: black;
+    background-color:#696969;
     width: 100%;
     height: auto;
 }
