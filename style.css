@@ -57,24 +57,54 @@ img {
     padding-bottom: 10px;
     padding-left: 10px;
 }
-/* cinquieme ligne */
-.img{
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        width: 100%;
+/* cinquieme ligne */ 
+.imgdanse{
+    width: 100%;
+    height: auto;
+} 
+.imgvoyage{
+    width: 100%;
+    height: auto;
 }
-h1{
-    position: absolute;
+.imgmusique{
+    width: 100%;
+    height: auto;
 }
-
+.imgart{
+    width: 100%;
+    height: auto;
+}
+.box6{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}.interet h3{
+    color: white;
+}
+#musique h3{
+    color: white;
+}
+#art h3{
+    color:white;
+}
 /* footer */
 #footer{
     background-color:#696969;
     width: 100%;
-    /* position: fixed; */
+    height: auto;
 }
-#imgcidalia{
+#reseaux{
+    font-display:flex ;
+    justify-content: flex-end;
+}
+#ancre{
+    width: 100%;
     display: flex;
-    justify-content: center;
-}
+    justify-content: flex-end;
+    margin-right: 20px;
+ } 
+/* tete posotion fixed */
+
+
+
+
+
