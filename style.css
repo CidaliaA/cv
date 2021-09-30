@@ -3,6 +3,7 @@ body{
     margin: 0;
     background: url(./images/metal-316803.jpg);
     width: 100%;
+    font-weight: bold;
 }
 html{
     padding: 0;
@@ -26,23 +27,52 @@ html{
     display: flex;
     margin-top: 10px;
 }
+img {
+    border-radius: 50px;
+}
+/* deuxieme ligne */
+.box2{
+    background-color: #696969;
+    margin: 20px;
+    padding: 0;
+}
+.competence{
+    margin-left: 20px;
+}
+/* troisiemeligne */
+.box3{
+    margin: 20px;
+    padding: 0;
+}
 /* quatrieme ligne */
-#expérience{
+#experience{
     overflow-y: scroll;
     height: 250px;
     margin: 0 100px;
 }
-/* cinquieme ligne */
-.container img{
-    width: 100%;
-    height: auto;
-    /* border-radius: 40%; */
+.box4{
+    background-color: #696969;
+    margin: 20px;
+    padding: 0;
+    padding-bottom: 10px;
+    padding-left: 10px;
 }
+/* cinquieme ligne */
+.img{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 100%;
+}
+h1{
+    position: absolute;
+}
+
 /* footer */
-footer{
+#footer{
     background-color:#696969;
     width: 100%;
-    height: auto;
+    /* position: fixed; */
 }
 #imgcidalia{
     display: flex;
