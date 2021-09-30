@@ -57,7 +57,12 @@ img {
     padding-bottom: 10px;
     padding-left: 10px;
 }
-/* cinquieme ligne */ 
+/* cinquieme ligne */
+.box5{
+    margin-left: 20px;
+}
+
+/* sixieme ligne */ 
 .imgdanse{
     width: 100%;
     height: auto;
@@ -101,8 +106,10 @@ img {
     display: flex;
     justify-content: flex-end;
     margin-right: 20px;
- } 
-/* tete posotion fixed */
+ }
+ #icon svg{
+     position: fixed;
+ }
 
 
 
