@@ -4,17 +4,17 @@ body{
     background: url(./images/metal-316803.jpg);
     width: 100%;
     font-weight: bold;
+    /* scroll-behavior */
 }
 html{
     padding: 0;
     margin: 0;
 }
-/* navbar  header*/
-.navbar{
-    position: fixed;
-    width: 100%;
-}
 /* premiere ligne */
+a{
+color: black;
+text-decoration: none;
+}
 #icon img{
     height: 10px;
     width: 10px;
@@ -39,14 +39,14 @@ img {
 .competence{
     margin-left: 20px;
 }
-/* troisiemeligne */
+/* troisieme ligne */
 .box3{
     margin: 20px;
     padding: 0;
 }
 /* quatrieme ligne */
 #experience{
-    overflow-y: scroll;
+    overflow-y: scroll ;color:black;
     height: 250px;
     margin: 0 100px;
 }
@@ -58,10 +58,20 @@ img {
     padding-left: 10px;
 }
 /* cinquieme ligne */
-.box5{
+#boxe{
     margin-left: 20px;
 }
-
+#box5{
+    margin-left: 20px;
+}
+.spa{
+    margin-top: 20px;
+}
+.btn-info{
+    background-color:#0d6efd;
+    border-color:#0d6efd;
+    color: white;
+}
 /* sixieme ligne */ 
 .imgdanse{
     width: 100%;
@@ -97,19 +107,34 @@ img {
     width: 100%;
     height: auto;
 }
-#reseaux{
-    font-display:flex ;
-    justify-content: flex-end;
+#reseau{
+    margin-left:20px ;
+}
+#git svg {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+#phone svg{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+#ville svg{
+    margin-left:20px;
+}
+#mail svg{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 #ancre{
     width: 100%;
     display: flex;
     justify-content: flex-end;
     margin-right: 20px;
- }
+}
  #icon svg{
      position: fixed;
- }
+}
 
 
 
